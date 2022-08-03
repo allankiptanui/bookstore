@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 10,
+            "server": "genome-mysql.soe.ucsc.edu",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "genomep",
+            "username": "genomep",
+            "group": "genomep",
+            "password": "password",
+            "database": "hg38"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Allan",
+            "group": "Allan",
+            "database": "shop_db",
+            "username": "Allan",
+            "password": "Allan"
+        }
+    ]
+}
